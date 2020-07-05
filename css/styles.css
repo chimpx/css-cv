@@ -1,0 +1,135 @@
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  width: 10%;
+  margin: 50px auto 0 auto;
+  font-family: 'BioRhyme Expanded', serif;
+  color: #66BFBF;
+  padding-right: 300px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Prompt', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Prompt', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #565d47;
+  line-height: 2;
+}
+.lets-talk{
+  color: #565d47;
+
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #66BFBF;
+  font-family: 'Prompt', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #565d47
+}
+
+.top-container {
+  background-color: #f0f0f0;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #f6f6f6;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #f6f6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+
+.profile-img {
+  width: 25%;
+}
+
+.coffee-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+
+.button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #aee 0%, #8cc 49%, #11999E 51%, #8cc 100%);
+  border-radius: 8px;
+  border: 1px solid #6aa;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4)
+}
+
+button:hover {
+  color: #eaf6f6
+}
