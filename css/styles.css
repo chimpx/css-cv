@@ -110,26 +110,28 @@ a:hover {
 }
 
 .button {
-  backface-visibility: hidden;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  white-space: nowrap;
-  background: linear-gradient(180deg, #aee 0%, #8cc 49%, #11999E 51%, #8cc 100%);
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #155c5c);
+  background-image: -moz-linear-gradient(top, #66bfbf, #155c5c);
+  background-image: -ms-linear-gradient(top, #66bfbf, #155c5c);
+  background-image: -o-linear-gradient(top, #66bfbf, #155c5c);
+  background-image: linear-gradient(to bottom, #66bfbf, #155c5c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
   border-radius: 8px;
-  border: 1px solid #6aa;
-  border-width: 1px 1px 1px 1px;
-  padding: 10px 20px 10px 20px;
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px rgba(0, 0, 0, 0.3);
-  color: #fff;
-  font-size: 20px;
   font-family: 'Prompt', sans-serif;
-  font-weight: 900;
-  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4)
 }
 
-button:hover {
-  background-color: #eaf6f6
+.button:hover {
+  background: #11999e;
+  background-image: -webkit-linear-gradient(top, #11999e, #c0eced);
+  background-image: -moz-linear-gradient(top, #11999e, #c0eced);
+  background-image: -ms-linear-gradient(top, #11999e, #c0eced);
+  background-image: -o-linear-gradient(top, #11999e, #c0eced);
+  background-image: linear-gradient(to bottom, #11999e, #c0eced);
+  text-decoration: none;
 }
